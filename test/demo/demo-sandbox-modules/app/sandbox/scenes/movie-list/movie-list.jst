@@ -1,0 +1,7 @@
+{{+ import BaseList from "ui/base-list/base-list"; }}
+
+{{+ import MovieListItem from "sandbox/sandbox/widgets/movie-list-item/movie-list-item"; }}
+
+<h1>Scene MovieList</h1>
+
+{{% BaseList, {itemClass: MovieListItem}, movieList }}

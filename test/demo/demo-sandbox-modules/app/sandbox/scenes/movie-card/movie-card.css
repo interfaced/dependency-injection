@@ -1,0 +1,18 @@
+/* MovieCard scene
+*******************************/
+
+.s-movie-card {
+
+}
+
+.movie-card__watch-button {
+	padding: 20px 20px;
+	display: inline-block;
+	color: gray;
+	border: 1px solid gray;
+}
+
+.movie-card__watch-button._active {
+	color: lime;
+	border: 1px solid lime;
+}

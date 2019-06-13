@@ -1,0 +1,14 @@
+{{+ import BaseList from "ui/base-list/base-list"; }}
+
+{{+ import Button from "ui/button/button"; }}
+
+{{+ import MovieListItem from "sandbox/sandbox/widgets/movie-list-item/movie-list-item"; }}
+
+<div>Movie</div>
+<h1 class="movie-card__title" data-export-id="{{@title}}"></h1>
+<div class="movie-card__rating" data-export-id="{{@rating}}"></div>
+<div class="movie-card__watch-button"
+     data-component="{{% Button, {}, watchButton }}"
+     >PLAY</div>
+<h2>Similar movies</h2>
+{{% BaseList, {itemClass: MovieListItem}, similarMovieList }}

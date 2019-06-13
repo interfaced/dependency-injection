@@ -1,0 +1,17 @@
+[
+  {
+    "name": "sceneMovieList",
+    "type": "MovieList",
+    "injector": "setter"
+  },
+  {
+    "name": "sceneMovieCard",
+    "type": "MovieCard",
+    "injector": "setter"
+  },
+  {
+    "name": "repositoryMovie",
+    "type": "MovieRepository",
+    "injector": "setter"
+  }
+]

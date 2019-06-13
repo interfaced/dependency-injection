@@ -1,0 +1,20 @@
+[
+  {
+    "name": "sceneMovieList",
+    "type": "MovieList",
+    "injector": "constructor",
+    "index": 0
+  },
+  {
+    "name": "sceneMovieCard",
+    "type": "MovieCard",
+    "injector": "constructor",
+    "index": 1
+  },
+  {
+    "name": "repositoryMovie",
+    "type": "MovieRepository",
+    "injector": "constructor",
+    "index": 2
+  }
+]

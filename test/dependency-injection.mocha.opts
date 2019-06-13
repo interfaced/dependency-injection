@@ -1,0 +1,2 @@
+--require ./test/path-aliases.js ./test/tools.js
+./test/*.mocha.js

@@ -1,0 +1,21 @@
+{
+  "MovieController": [
+    {
+      "name": "repositoryMovie",
+      "type": "IMovieRepository"
+    }
+  ],
+  "MovieRepository": [],
+  "MovieList": [
+    {
+      "name": "controllerMovie",
+      "type": "IMovieController"
+    }
+  ],
+  "MovieCard": [
+    {
+      "name": "controllerMovie",
+      "type": "IMovieController"
+    }
+  ]
+}
